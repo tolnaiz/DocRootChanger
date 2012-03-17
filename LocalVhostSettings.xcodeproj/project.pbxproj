@@ -14,6 +14,7 @@
 		EAFA22ED1514A5FB008DB1DE /* LVSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFA22EC1514A5FB008DB1DE /* LVSAppDelegate.m */; };
 		EAFA22F01514A5FC008DB1DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAFA22EE1514A5FC008DB1DE /* MainMenu.xib */; };
 		EAFA22F31514A5FC008DB1DE /* LocalVhostSettings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAFA22F11514A5FC008DB1DE /* LocalVhostSettings.xcdatamodeld */; };
+		EAFA22FE1514AC1F008DB1DE /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFA22FD1514AC1F008DB1DE /* i.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		EAFA22DC1514A5FB008DB1DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EAFA22DD1514A5FB008DB1DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EAFA22DE1514A5FB008DB1DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EAFA22E11514A5FB008DB1DE /* LocalVhostSettings-Info.plist */ = {isa = PBXFileReference; path = "LocalVhostSettings-Info.plist"; sourceTree = "<group>"; };
+		EAFA22E11514A5FB008DB1DE /* LocalVhostSettings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalVhostSettings-Info.plist"; sourceTree = "<group>"; };
 		EAFA22E31514A5FB008DB1DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAFA22E51514A5FB008DB1DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAFA22E71514A5FB008DB1DE /* LocalVhostSettings-Prefix.pch */ = {isa = PBXFileReference; path = "LocalVhostSettings-Prefix.pch"; sourceTree = "<group>"; };
+		EAFA22E71514A5FB008DB1DE /* LocalVhostSettings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalVhostSettings-Prefix.pch"; sourceTree = "<group>"; };
 		EAFA22E91514A5FB008DB1DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		EAFA22EB1514A5FB008DB1DE /* LVSAppDelegate.h */ = {isa = PBXFileReference; path = LVSAppDelegate.h; sourceTree = "<group>"; };
+		EAFA22EB1514A5FB008DB1DE /* LVSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVSAppDelegate.h; sourceTree = "<group>"; };
 		EAFA22EC1514A5FB008DB1DE /* LVSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVSAppDelegate.m; sourceTree = "<group>"; };
 		EAFA22EF1514A5FC008DB1DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EAFA22F21514A5FC008DB1DE /* LocalVhostSettings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocalVhostSettings.xcdatamodel; sourceTree = "<group>"; };
+		EAFA22FD1514AC1F008DB1DE /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		EAFA22DF1514A5FB008DB1DE /* LocalVhostSettings */ = {
 			isa = PBXGroup;
 			children = (
+				EAFA22FD1514AC1F008DB1DE /* i.png */,
 				EAFA22EB1514A5FB008DB1DE /* LVSAppDelegate.h */,
 				EAFA22EC1514A5FB008DB1DE /* LVSAppDelegate.m */,
 				EAFA22EE1514A5FC008DB1DE /* MainMenu.xib */,
@@ -159,6 +162,7 @@
 				EAFA22E41514A5FB008DB1DE /* InfoPlist.strings in Resources */,
 				EAFA22EA1514A5FB008DB1DE /* Credits.rtf in Resources */,
 				EAFA22F01514A5FC008DB1DE /* MainMenu.xib in Resources */,
+				EAFA22FE1514AC1F008DB1DE /* i.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

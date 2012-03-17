@@ -14,10 +14,17 @@
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize managedObjectContext = __managedObjectContext;
+@synthesize statusMenu = _statusMenu;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 	// Insert code here to initialize your application
+	[self.statusMenu setDelegate:self];
+	statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+	[statusItem setMenu:self.statusMenu];
+	[statusItem setHighlightMode:YES];
+	[statusItem setImage:[NSImage imageNamed:@"i.png"]];
+	
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "tony.LocalVhostSettings" in the user's Application Support directory.

@@ -8,10 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface LVSAppDelegate : NSObject <NSApplicationDelegate>
+@interface LVSAppDelegate : NSObject <NSApplicationDelegate,NSMenuDelegate>{
+	NSStatusItem *statusItem;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (strong, nonatomic) IBOutlet NSMenu *statusMenu;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
