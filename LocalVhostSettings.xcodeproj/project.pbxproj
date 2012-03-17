@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAFA22DA1514A5FB008DB1DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFA22D91514A5FB008DB1DE /* Cocoa.framework */; };
+		EAFA22E41514A5FB008DB1DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFA22E21514A5FB008DB1DE /* InfoPlist.strings */; };
+		EAFA22E61514A5FB008DB1DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFA22E51514A5FB008DB1DE /* main.m */; };
+		EAFA22EA1514A5FB008DB1DE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EAFA22E81514A5FB008DB1DE /* Credits.rtf */; };
+		EAFA22ED1514A5FB008DB1DE /* LVSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFA22EC1514A5FB008DB1DE /* LVSAppDelegate.m */; };
+		EAFA22F01514A5FC008DB1DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAFA22EE1514A5FC008DB1DE /* MainMenu.xib */; };
+		EAFA22F31514A5FC008DB1DE /* LocalVhostSettings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAFA22F11514A5FC008DB1DE /* LocalVhostSettings.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAFA22D51514A5FB008DB1DE /* LocalVhostSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalVhostSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFA22D91514A5FB008DB1DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EAFA22DC1514A5FB008DB1DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EAFA22DD1514A5FB008DB1DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EAFA22DE1514A5FB008DB1DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAFA22E11514A5FB008DB1DE /* LocalVhostSettings-Info.plist */ = {isa = PBXFileReference; path = "LocalVhostSettings-Info.plist"; sourceTree = "<group>"; };
+		EAFA22E31514A5FB008DB1DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAFA22E51514A5FB008DB1DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAFA22E71514A5FB008DB1DE /* LocalVhostSettings-Prefix.pch */ = {isa = PBXFileReference; path = "LocalVhostSettings-Prefix.pch"; sourceTree = "<group>"; };
+		EAFA22E91514A5FB008DB1DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EAFA22EB1514A5FB008DB1DE /* LVSAppDelegate.h */ = {isa = PBXFileReference; path = LVSAppDelegate.h; sourceTree = "<group>"; };
+		EAFA22EC1514A5FB008DB1DE /* LVSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVSAppDelegate.m; sourceTree = "<group>"; };
+		EAFA22EF1514A5FC008DB1DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EAFA22F21514A5FC008DB1DE /* LocalVhostSettings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocalVhostSettings.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAFA22D21514A5FB008DB1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFA22DA1514A5FB008DB1DE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAFA22CA1514A5FB008DB1DE = {
+			isa = PBXGroup;
+			children = (
+				EAFA22DF1514A5FB008DB1DE /* LocalVhostSettings */,
+				EAFA22D81514A5FB008DB1DE /* Frameworks */,
+				EAFA22D61514A5FB008DB1DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAFA22D61514A5FB008DB1DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA22D51514A5FB008DB1DE /* LocalVhostSettings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAFA22D81514A5FB008DB1DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA22D91514A5FB008DB1DE /* Cocoa.framework */,
+				EAFA22DB1514A5FB008DB1DE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFA22DB1514A5FB008DB1DE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA22DC1514A5FB008DB1DE /* AppKit.framework */,
+				EAFA22DD1514A5FB008DB1DE /* CoreData.framework */,
+				EAFA22DE1514A5FB008DB1DE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EAFA22DF1514A5FB008DB1DE /* LocalVhostSettings */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA22EB1514A5FB008DB1DE /* LVSAppDelegate.h */,
+				EAFA22EC1514A5FB008DB1DE /* LVSAppDelegate.m */,
+				EAFA22EE1514A5FC008DB1DE /* MainMenu.xib */,
+				EAFA22F11514A5FC008DB1DE /* LocalVhostSettings.xcdatamodeld */,
+				EAFA22E01514A5FB008DB1DE /* Supporting Files */,
+			);
+			path = LocalVhostSettings;
+			sourceTree = "<group>";
+		};
+		EAFA22E01514A5FB008DB1DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA22E11514A5FB008DB1DE /* LocalVhostSettings-Info.plist */,
+				EAFA22E21514A5FB008DB1DE /* InfoPlist.strings */,
+				EAFA22E51514A5FB008DB1DE /* main.m */,
+				EAFA22E71514A5FB008DB1DE /* LocalVhostSettings-Prefix.pch */,
+				EAFA22E81514A5FB008DB1DE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAFA22D41514A5FB008DB1DE /* LocalVhostSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFA22F61514A5FC008DB1DE /* Build configuration list for PBXNativeTarget "LocalVhostSettings" */;
+			buildPhases = (
+				EAFA22D11514A5FB008DB1DE /* Sources */,
+				EAFA22D21514A5FB008DB1DE /* Frameworks */,
+				EAFA22D31514A5FB008DB1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalVhostSettings;
+			productName = LocalVhostSettings;
+			productReference = EAFA22D51514A5FB008DB1DE /* LocalVhostSettings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAFA22CC1514A5FB008DB1DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LVS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EAFA22CF1514A5FB008DB1DE /* Build configuration list for PBXProject "LocalVhostSettings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAFA22CA1514A5FB008DB1DE;
+			productRefGroup = EAFA22D61514A5FB008DB1DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAFA22D41514A5FB008DB1DE /* LocalVhostSettings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAFA22D31514A5FB008DB1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFA22E41514A5FB008DB1DE /* InfoPlist.strings in Resources */,
+				EAFA22EA1514A5FB008DB1DE /* Credits.rtf in Resources */,
+				EAFA22F01514A5FC008DB1DE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAFA22D11514A5FB008DB1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFA22E61514A5FB008DB1DE /* main.m in Sources */,
+				EAFA22ED1514A5FB008DB1DE /* LVSAppDelegate.m in Sources */,
+				EAFA22F31514A5FC008DB1DE /* LocalVhostSettings.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAFA22E21514A5FB008DB1DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFA22E31514A5FB008DB1DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAFA22E81514A5FB008DB1DE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFA22E91514A5FB008DB1DE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EAFA22EE1514A5FC008DB1DE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFA22EF1514A5FC008DB1DE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAFA22F41514A5FC008DB1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EAFA22F51514A5FC008DB1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EAFA22F71514A5FC008DB1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalVhostSettings/LocalVhostSettings-Prefix.pch";
+				INFOPLIST_FILE = "LocalVhostSettings/LocalVhostSettings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAFA22F81514A5FC008DB1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalVhostSettings/LocalVhostSettings-Prefix.pch";
+				INFOPLIST_FILE = "LocalVhostSettings/LocalVhostSettings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAFA22CF1514A5FB008DB1DE /* Build configuration list for PBXProject "LocalVhostSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFA22F41514A5FC008DB1DE /* Debug */,
+				EAFA22F51514A5FC008DB1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFA22F61514A5FC008DB1DE /* Build configuration list for PBXNativeTarget "LocalVhostSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFA22F71514A5FC008DB1DE /* Debug */,
+				EAFA22F81514A5FC008DB1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAFA22F11514A5FC008DB1DE /* LocalVhostSettings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAFA22F21514A5FC008DB1DE /* LocalVhostSettings.xcdatamodel */,
+			);
+			currentVersion = EAFA22F21514A5FC008DB1DE /* LocalVhostSettings.xcdatamodel */;
+			path = LocalVhostSettings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAFA22CC1514A5FB008DB1DE /* Project object */;
+}
