@@ -38,7 +38,9 @@
 }
 
 - (void)menuWillOpen:(NSMenu *)menu {
-	[statusItem setImage:[NSImage imageNamed:@"icon-w.png"]];
+	NSImage* image = [NSImage imageNamed:@"icon-w.png"];
+	[image setSize:NSSizeFromString(@"{32,16}")];
+	[statusItem setImage:image];
 	[self.statusMenu removeAllItems];
 	NSString *dir = [@"~/Dropbox/Munka/" stringByExpandingTildeInPath];
 	NSFileManager *fm = [NSFileManager defaultManager];
@@ -73,7 +75,9 @@
 }
 
 - (void)menuDidClose:(NSMenu *)menu{
-    [statusItem setImage:[NSImage imageNamed:@"icon.png"]];
+	NSImage* image = [NSImage imageNamed:@"icon.png"];
+	[image setSize:NSSizeFromString(@"{32,16}")];
+	[statusItem setImage:image];
 }
 
 - (void)changeVhost:(NSMenuItem *)sender{
@@ -94,7 +98,9 @@
 	statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 	[statusItem setMenu:self.statusMenu];
 	[statusItem setHighlightMode:YES];
-	[statusItem setImage:[NSImage imageNamed:@"icon.png"]];
+	NSImage* image = [NSImage imageNamed:@"icon.png"];
+	[image setSize:NSSizeFromString(@"{32,16}")];
+	[statusItem setImage:image];
 
 }
 
